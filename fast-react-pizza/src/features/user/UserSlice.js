@@ -6,6 +6,7 @@ function getPosition() {
   });
 }
 
+// eslint-disable-next-line no-unused-vars
 async function fetchAddress() {
   // 1) We get the user's geolocation position
   const positionObj = await getPosition();
