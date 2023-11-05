@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import { formatCurrency } from "../../utils/helpers";
 
-// eslint-disable-next-line react/prop-types
 function MenuItem({ pizza }) {
   // eslint-disable-next-line react/prop-types
   const { name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
