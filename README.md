@@ -10,3 +10,10 @@
 6. Add `import eslint from "vite-plugin-eslint";` to `vite.config.js`.
 7. Add `eslint()` to plugins.
 8. Run using `npm run dev`.
+
+# Setting up Tailwind
+
+1. `npm install -D tailwindcss postcss autoprefixer`
+2. `npx tailwindcss init`
+3. `npm install -D prettier prettier-plugin-tailwindcss`
+4. Visit docs `https://tailwindcss.com`
